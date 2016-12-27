@@ -1,0 +1,35 @@
+{
+  "name": "example-webpack-hot-middleware",
+  "version": "1.0.0",
+  "description": "Example webpack-hot-middleware",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --harmony index.js",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "BrunoLM",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/chai": "^3.4.34",
+    "@types/express": "^4.0.34",
+    "@types/mocha": "^2.2.33",
+    "@types/node": "^6.0.51",
+    "@types/react": "^0.14.50",
+    "@types/react-dom": "^0.14.19",
+    "ts-loader": "^1.2.2",
+    "typescript": "^2.0.10",
+    "webpack": "^1.13.3",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.2"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
